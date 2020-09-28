@@ -1,6 +1,6 @@
 # Awesome Web Archiving [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-※この文書は、Creative Commons Zero v1.0 Universalライセンスで公開されている[iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)を極めて適当に日本語に翻訳したものです。本文書は翻訳元文書と同じくCreative Commons Zero v1.0 Universalライセンスに従います。なお、翻訳元文書の性質上、ここに掲載されている文献やリンクは基本的に全て英語資料であることにご注意ください。
+※この文書は、Creative Commons Zero v1.0 Universalライセンスで公開されている[iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)を極めて適当に日本語に翻訳したものです。本文書は翻訳元文書と同じくCreative Commons Zero v1.0 Universalライセンスに従います。なお、翻訳元文書の性質上、ここに掲載されている文献やリンクは基本的に全て英語資料であることにご注意ください。  
 
 ----
 
@@ -9,7 +9,7 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
 ## 目次
 
 * [入門ガイド](#trainingdocumentation)
-* [Web情報著作者のための資料](#resources-for-web-publishers)
+* [Webコンテンツ著作者のための資料](#resources-for-web-publishers)
 * [ツール・ソフトウェア](#tools--software)
   * [アーカイブの保存](#acquisition)
   * [アーカイブの閲覧・再生](#replay)
@@ -18,29 +18,29 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
   * [WARC I/O Libraries](#warc-io-libraries)
   * [Analysis](#analysis)
   * [Quality Assurance](#quality-assurance)
-* [Community Resources](#community-resources)
+* [Webアーカイブコミュニティによる資料](#community-resources)
   * [このリスト以外の素晴らしいリスト](#other-awesome-lists)
-  * [Blogs and Scholarship](#blogs-and-scholarship)
-  * [Mailing Lists](#mailing-lists)
+  * [ブログ・学術研究](#blogs-and-scholarship)
+  * [メーリングリスト](#mailing-lists)
   * [Slack](#slack)
   * [Twitter](#twitter)
 
 ## 入門ガイド
 
 * Webアーカイブの考え方の手引き:
-  * [What is a web archive?](https://youtu.be/ubDHY-ynWi0) - [the UK Web Archive YouTubeチャンネル](https://www.youtube.com/channel/UCJukhTSw8VRj-VNTpBcqWkw)の動画
-  * [Webアーカイブ・イニシアチブの一覧(Wikipedia記事)](https://en.wikipedia.org/wiki/List_of_Web_archiving_initiatives)
+  * [What is a web archive?](https://youtu.be/ubDHY-ynWi0) - [the UK Web Archive のYouTubeチャンネル](https://www.youtube.com/channel/UCJukhTSw8VRj-VNTpBcqWkw)に投稿された動画
+  * [Webアーカイブ・イニシアチブの一覧 (Wikipedia記事)](https://en.wikipedia.org/wiki/List_of_Web_archiving_initiatives)
   * [Glossary of Archive-It and Web Archiving Terms](https://support.archive-it.org/hc/en-us/articles/208111686-Glossary-of-Archive-It-and-Web-Archiving-Terms)
-  * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - The Web Archiving Lifecycle Model is an attempt to incorporate the technological and programmatic arms of the web archiving into a framework that will be relevant to any organization seeking to archive content from the web. Archive-It, the web archiving service from the Internet Archive, developed the model based on its work with memory institutions around the world. Web Archiving Lifecycle Modelとは、
+  * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - Web Archiving Lifecycle Modelとは、Webアーカイブの技術的およびプログラム的な部分を、Webコンテンツをアーカイブしようとするあらゆる組織に関連するフレームワークに組み込もうとする取り組み。Archive-It (Internet ArchiveのWebアーカイブサービス) によって、同サービスと世界中の記憶機関(Memory Institutions)との協力関係を基にして開発された。
   * [Training materials: module for beginners (8 sessions)](https://netpreserve.org/web-archiving/training-materials/)
 * WARCファイルフォーマット標準について:
   * The [warc-specifications](https://iipc.github.io/warc-specifications/) community HTML version of the official specification and hub for new proposals.
   * The [offical ISO 28500 WARC specification homepage](http://bibnum.bnf.fr/WARC/).
 * Webアーカイブを利用したい研究者のための手引き:
-  * [GLAM Workbench: Web Archives](https://glam-workbench.github.io/web-archives/) - See also [this related blog post on 'Asking questions with web archives'](https://netpreserveblog.wordpress.com/2020/05/28/asking-questions-with-web-archives/).
+  * [GLAM Workbench: Web Archives](https://glam-workbench.github.io/web-archives/) - 関連記事：['Asking questions with web archives'](https://netpreserveblog.wordpress.com/2020/05/28/asking-questions-with-web-archives/).
   * [Archives Unleashed Toolkit documentation](https://aut.docs.archivesunleashed.org/)
 
-## Web情報著作者のための資料
+## Webコンテンツ著作者のための資料
 
 These resources can help when working with individuals or organisations who publish on the web, and who want to make sure their site can be archived.
 これらの資料は、Web上に情報を公開していて、なおかつ自分が公開した情報をアーカイブしたいと考えている個人・団体にとって参考になるかもしれません。
@@ -60,20 +60,20 @@ This list of tools and software is intended to briefly describe some of the most
 
 * [ArchiveBox](https://github.com/pirate/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, chrome headless, and other methods (formerly `Bookmark Archiver`). *(In Development)* RSSフィード・ブックマーク・リンク集の情報をwget・ヘッドレスChromeなどを使ってアーカイブするツール。旧名称は`Bookmark Archiver`。 *(開発中)*
 * [archivenow](https://github.com/oduwsdl/archivenow) - A [Python library](http://ws-dl.blogspot.com/2017/02/2017-02-22-archive-now-archivenow.html) to push web resources into on-demand web archives. *(Stable)*　[Pythonライブラリ](http://ws-dl.blogspot.com/2017/02/2017-02-22-archive-now-archivenow.html)。Web上のコンテンツをWebアーカイブサイト上に保存する。 *(安定版あり)*
-* [Brozzler](https://github.com/internetarchive/brozzler) - A distributed web crawler (爬虫) that uses a real browser (chrome or chromium) to fetch pages and embedded urls and to extract links. *(Stable)*　分散型Webクローラ("爬虫")。Webブラウザ(Chrome/Chromium)を使い、Webサイトを埋め込みリンク・外部リンクも含めて保存する。 *(安定版あり)*
-* [Chronicler](https://github.com/CGamesPlay/chronicler) - Web browser with record and replay functionality. *(In Development)*
-* [Crawl](https://git.autistici.org/ale/crawl) - A simple web crawler in Golang. *(Stable)* *(安定版あり)*
-* [crocoite](https://github.com/promyloph/crocoite) - Crawl websites using headless Google Chrome/Chromium and save resources, static DOM snapshot and page screenshots to WARC files. *(In Development)* *(開発中)*
-* [F(b)arc](https://github.com/justinlittman/fbarc) - A commandline tool and Python library for archiving data from [Facebook](https://www.facebook.com/) using the [Graph API](https://developers.facebook.com/docs/graph-api). *(Stable)* *(安定版あり)*
+* [Brozzler](https://github.com/internetarchive/brozzler) - A distributed web crawler (爬虫) that uses a real browser (chrome or chromium) to fetch pages and embedded urls and to extract links. *(Stable)*　分散型Webクローラ("爬虫")。Webブラウザ(Chrome/Chromium)を使い、Webサイトを埋め込みリンク・外部リンクも含めて保存する *(安定版あり)*
+* [Chronicler](https://github.com/CGamesPlay/chronicler) - Web browser with record and replay functionality. *(In Development)* 記録・再生機能付きのWebブラウザ *(開発中)*
+* [Crawl](https://git.autistici.org/ale/crawl) - A simple web crawler in Golang. *(Stable)* Golang製のシンプルなWebクローラ *(安定版あり)*
+* [crocoite](https://github.com/promyloph/crocoite) - Crawl websites using headless Google Chrome/Chromium and save resources, static DOM snapshot and page screenshots to WARC files. *(In Development)* ヘッドレスChrome/Chromiumを用いてWebサイトをクロールし、コンテンツ・静的なDOMスナップショット・ページのスクリーンショットをWARCファイルとして保存するツール *(開発中)*
+* [F(b)arc](https://github.com/justinlittman/fbarc) - A commandline tool and Python library for archiving data from [Facebook](https://www.facebook.com/) using the [Graph API](https://developers.facebook.com/docs/graph-api). *(Stable)* コマンドラインツール・Pythonライブラリ。Facebookの[Graph API](https://developers.facebook.com/docs/graph-api)を使ってFacebookのコンテンツをアーカイブする。 *(安定版あり)*
 * [freeze-dry](https://github.com/WebMemex/freeze-dry) - JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions. *(In Development)* *(開発中)*
-* [grab-site](https://github.com/ArchiveTeam/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns. *(Stable)* *(安定版あり)*
-* [Heritrix](https://github.com/internetarchive/heritrix3/wiki) - An open source, extensible, web-scale, archival quality web crawler. *(Stable)* *(安定版あり)*
+* [grab-site](https://github.com/ArchiveTeam/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns. *(Stable)* "WebアーキビストのためのWebクローラ"。WARC出力機能、実行中クロールを監視出来るダッシュボード機能、動的な無視パターンを搭載 *(安定版あり)*
+* [Heritrix](https://github.com/internetarchive/heritrix3/wiki) - An open source, extensible, web-scale, archival quality web crawler. *(Stable)* オープンソース・高拡張性・Webスケール・アーカイバルクオリティなWebクローラ *(安定版あり)*
   * [Heritrix Walkthrough](https://github.com/web-archive-group/heritrix-walkthrough) *(In Development)* *(開発中)*
-* [html2warc](https://github.com/steffenfritz/html2warc) - A simple script to convert offline data into a single WARC file. *(Stable)* *(安定版あり)*
-* [HTTrack](http://www.httrack.com/) - An open source website copying utility. *(Stable)* *(安定版あり)*
-* [monolith](https://github.com/Y2Z/monolith) - CLI tool to save a web page as a single HTML file. *(Stable)* *(安定版あり)*
-* [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. *(Stable)* *(安定版あり)*
-* [SiteStory](http://mementoweb.github.com/SiteStory/) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. *(Stable)* *(安定版あり)*
+* [html2warc](https://github.com/steffenfritz/html2warc) - A simple script to convert offline data into a single WARC file. *(Stable)* オフラインなデータをWARCファイルに変換するためのシンプルなスクリプト *(安定版あり)*
+* [HTTrack](http://www.httrack.com/) - An open source website copying utility. *(Stable)* オープンソースのWebサイトコピー用ユーティリティ *(安定版あり)*
+* [monolith](https://github.com/Y2Z/monolith) - CLI tool to save a web page as a single HTML file. *(Stable)* WebページをHTMLファイルとして保存するCLIツール *(安定版あり)*
+* [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. *(Stable)* Firefox/Chromeのブラウザ拡張機能・CLIツール。ページを丸ごと完全コピーしてHTMLファイルとして保存する *(安定版あり)*
+* [SiteStory](http://mementoweb.github.com/SiteStory/) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. *(Stable)* 選択的にキャプチャ・保存する *(安定版あり)*
 * [Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs. *(Stable)* *(安定版あり)*
 * [Squidwarc](https://github.com/N0taN3rd/Squidwarc) - An [open source, high-fidelity, page interacting](http://ws-dl.blogspot.com/2017/07/2017-07-24-replacing-heritrix-with.html) archival crawler that uses Chrome or Chrome Headless directly. *(In Development)* *(開発中)*
 * [StormCrawler](http://stormcrawler.net/) - A collection of resources for building low-latency, scalable web crawlers on Apache Storm. *(Stable)* *(安定版あり)*
@@ -163,7 +163,7 @@ This list of tools and software is intended to briefly describe some of the most
 * [Xenu](http://home.snafu.de/tilman/xenulink.html) - Desktop link checker for Windows.
 
 
-## Community Resources
+## Webアーカイブコミュニティによる資料
 
 ### このリスト以外の素晴らしいリスト
 
@@ -172,7 +172,7 @@ This list of tools and software is intended to briefly describe some of the most
 * [The WARC Ecosystem](http://www.archiveteam.org/index.php?title=The_WARC_Ecosystem)
 * [The Web Crawl section of COPTR](http://coptr.digipres.org/Category:Web_Crawl)
 
-### Blogs and Scholarship
+### ブログ・学術研究
 
 * [IIPC Blog](https://netpreserveblog.wordpress.com/)
 * [Web Archiving Roundtable](https://webarchivingrt.wordpress.com/) - Unofficial blog of the Web Archiving Roundtable of the [Society of American Archivists](https://www2.archivists.org/) maintained by the members of the Web Archiving Roundtable.
@@ -181,7 +181,7 @@ This list of tools and software is intended to briefly describe some of the most
 * [DSHR's Blog](https://blog.dshr.org/) - David Rosenthal regularly reviews and summarizes work done in the Digital Preservation field.
 * [UK Web Archive Blog](https://blogs.bl.uk/webarchive/)
 
-### Mailing Lists
+### メーリングリスト
 
 * [IIPC](http://netpreserve.org/about-us/iipc-mailing-list/)
 * [OpenWayback](https://groups.google.com/forum/#!forum/openwayback-dev)
