@@ -1,31 +1,31 @@
 # Awesome Web Archiving [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-※この文書は、Creative Commons Zero v1.0 Universalライセンスで公開されている[iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)を極めて適当に日本語に翻訳したものです。本文書は翻訳元文書と同じくCreative Commons Zero v1.0 Universalライセンスに従います。なお、元文書の性質上、ここに掲載されている文献やリンクは基本的に全て英語資料であることにご注意ください。
+※この文書は、Creative Commons Zero v1.0 Universalライセンスで公開されている[iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)を極めて適当に日本語に翻訳したものです。本文書は翻訳元文書と同じくCreative Commons Zero v1.0 Universalライセンスに従います。なお、翻訳元文書の性質上、ここに掲載されている文献やリンクは基本的に全て英語資料であることにご注意ください。
 
-Web archiving is the process of collecting portions of the World Wide Web to ensure the information is preserved in an archive for future researchers, historians, and the public. Web archivists typically employ Web crawlers for automated capture due to the massive scale of the Web. Ever-evolving Web standards require continuous evolution of archiving tools to keep up with the changes in Web technologies to ensure reliable and meaningful capture and replay of archived web pages.
+----
 
-Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集し、それを後世の研究者・歴史家、および公共のために「保存記録(アーカイブ)」として記録する行為のことです。Webアーカイブを行う際は、保存対象であるWWWの情報が極めて厖大であるがゆえに、Webクローラを用いて自動的に情報を収集するのが一般的となっています。ウェブ標準は絶え間なく進化し続けており、それによってWeb技術もまた変化し続けています。Webページを保存しアーカイブとして閲覧するという営みを、信頼でき有意義なものにするためには、Webアーカイブでツールとして用いられるソフトウェアもまたそうした技術発展に追随していかなくてはならないのです。
+Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集し、それを後世の研究者・歴史家、および公共のために「書庫(アーカイブ)」として記録する行為のことです。Webアーカイブを行う際は、保存対象であるWWWの情報が極めて厖大であるがゆえに、Webクローラを用いて自動的に情報を収集するのが一般的となっています。ウェブ標準は絶え間なく進化し続けており、それによってWeb技術もまた変化し続けています。Webページを保存しアーカイブとして閲覧するという営みを、信頼でき有意義なものにするためには、Webアーカイブでツールとして用いられるソフトウェアもまたそうした技術発展に追随していかなくてはならないのです。
 
 ## 目次
 
-* [Training/Documentation](#trainingdocumentation)
-* [Resources for Web Publishers](#resources-for-web-publishers)
+* [入門ガイド](#trainingdocumentation)
+* [Web情報著作者のための資料](#resources-for-web-publishers)
 * [ツール・ソフトウェア](#tools--software)
-  * [Acquisition](#acquisition)
-  * [Replay](#replay)
-  * [Search & Discovery](#search--discovery)
+  * [アーカイブの保存](#acquisition)
+  * [アーカイブの閲覧・再生](#replay)
+  * [情報の検索](#search--discovery)
   * [Utilities](#utilities)
   * [WARC I/O Libraries](#warc-io-libraries)
   * [Analysis](#analysis)
   * [Quality Assurance](#quality-assurance)
 * [Community Resources](#community-resources)
-  * [Other Awesome Lists](#other-awesome-lists)
+  * [このリスト以外の素晴らしいリスト](#other-awesome-lists)
   * [Blogs and Scholarship](#blogs-and-scholarship)
   * [Mailing Lists](#mailing-lists)
   * [Slack](#slack)
   * [Twitter](#twitter)
 
-## Training/Documentation
+## 入門ガイド
 
 * Webアーカイブの考え方の手引き:
   * [What is a web archive?](https://youtu.be/ubDHY-ynWi0) - [the UK Web Archive YouTubeチャンネル](https://www.youtube.com/channel/UCJukhTSw8VRj-VNTpBcqWkw)の動画
@@ -33,14 +33,14 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
   * [Glossary of Archive-It and Web Archiving Terms](https://support.archive-it.org/hc/en-us/articles/208111686-Glossary-of-Archive-It-and-Web-Archiving-Terms)
   * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - The Web Archiving Lifecycle Model is an attempt to incorporate the technological and programmatic arms of the web archiving into a framework that will be relevant to any organization seeking to archive content from the web. Archive-It, the web archiving service from the Internet Archive, developed the model based on its work with memory institutions around the world. Web Archiving Lifecycle Modelとは、
   * [Training materials: module for beginners (8 sessions)](https://netpreserve.org/web-archiving/training-materials/)
-* WARCファイルフォーマット標準:
+* WARCファイルフォーマット標準について:
   * The [warc-specifications](https://iipc.github.io/warc-specifications/) community HTML version of the official specification and hub for new proposals.
   * The [offical ISO 28500 WARC specification homepage](http://bibnum.bnf.fr/WARC/).
 * Webアーカイブを利用したい研究者のための手引き:
   * [GLAM Workbench: Web Archives](https://glam-workbench.github.io/web-archives/) - See also [this related blog post on 'Asking questions with web archives'](https://netpreserveblog.wordpress.com/2020/05/28/asking-questions-with-web-archives/).
   * [Archives Unleashed Toolkit documentation](https://aut.docs.archivesunleashed.org/)
 
-## Resources for Web Publishers
+## Web情報著作者のための資料
 
 These resources can help when working with individuals or organisations who publish on the web, and who want to make sure their site can be archived.
 これらの資料は、Web上に情報を公開していて、なおかつ自分が公開した情報をアーカイブしたいと考えている個人・団体にとって参考になるかもしれません。
@@ -56,7 +56,7 @@ This list of tools and software is intended to briefly describe some of the most
 * [Awesome Website Change Monitoring](https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring)
 * [Web Crawl @ COPTR](http://coptr.digipres.org/Category:Web_Crawl)
 
-### Acquisition
+### アーカイブの保存
 
 * [ArchiveBox](https://github.com/pirate/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, chrome headless, and other methods (formerly `Bookmark Archiver`). *(In Development)*
 * [archivenow](https://github.com/oduwsdl/archivenow) - A [Python library](http://ws-dl.blogspot.com/2017/02/2017-02-22-archive-now-archivenow.html) to push web resources into on-demand web archives. *(Stable)*
@@ -88,7 +88,7 @@ This list of tools and software is intended to briefly describe some of the most
 * [Wget-lua](https://github.com/alard/wget-lua) - Wget with Lua extension. *(Stable)*
 * [Wpull](https://github.com/chfoo/wpull) - A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. *(Stable)*
 
-### Replay
+### アーカイブの閲覧・再生
 
 * [InterPlanetary Wayback (ipwb)](https://github.com/oduwsdl/ipwb) - Web Archive (WARC) indexing and replay using [IPFS](https://ipfs.io/).
 * [OpenWayback](https://github.com/iipc/openwayback/) - The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser. *(Stable)*
@@ -96,7 +96,7 @@ This list of tools and software is intended to briefly describe some of the most
 * [Reconstructive](https://oduwsdl.github.io/Reconstructive/) - Reconstructive is a ServiceWorker module for client-side reconstruction of composite mementos by rerouting resource requests to corresponding archived copies (JavaScript).
 * [ReplayWeb.Page](https://replayweb.page/) - A browser-based, fully client-side replay engine for both local and remote WARC files.
 
-### Search & Discovery
+### 情報の検索
 
 * [Mink](https://github.com/machawk1/mink) - A [Google Chrome](https://www.google.com/intl/en/chrome/browser/) extension for querying Memento aggregators while browsing and integrating live-archived web navigation. *(Stable)*
 * [SecurityTrails](https://securitytrails.com/) - Web based archive for WHOIS and DNS records. REST API available free of charge. 
@@ -165,7 +165,7 @@ This list of tools and software is intended to briefly describe some of the most
 
 ## Community Resources
 
-### Other Awesome Lists
+### このリスト以外の素晴らしいリスト
 
 * [Web Archiving Community](https://github.com/pirate/ArchiveBox/wiki/Web-Archiving-Community)
 * [Awesome Memento](https://github.com/machawk1/awesome-memento)
