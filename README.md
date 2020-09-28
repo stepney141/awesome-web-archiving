@@ -1,13 +1,16 @@
 # Awesome Web Archiving [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+※この文書は、Creative Commons Zero v1.0 Universalライセンスで公開されている[iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)を極めて適当に日本語に翻訳したものです。本文書は翻訳元文書と同じくCreative Commons Zero v1.0 Universalライセンスに従います。なお、元文書の性質上、ここに掲載されている文献やリンクは基本的に全て英語資料であることにご注意ください。
+
 Web archiving is the process of collecting portions of the World Wide Web to ensure the information is preserved in an archive for future researchers, historians, and the public. Web archivists typically employ Web crawlers for automated capture due to the massive scale of the Web. Ever-evolving Web standards require continuous evolution of archiving tools to keep up with the changes in Web technologies to ensure reliable and meaningful capture and replay of archived web pages.
 
+Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集し、それを後世の研究者・歴史家、および公共のために「保存記録(アーカイブ)」として記録する行為のことです。Webアーカイブを行う際は、保存対象であるWWWの情報が極めて厖大であるがゆえに、Webクローラを用いて自動的に情報を収集するのが一般的となっています。ウェブ標準は絶え間なく進化し続けており、それによってWeb技術もまた変化し続けています。Webページを保存しアーカイブとして閲覧するという営みを、信頼でき有意義なものにするためには、Webアーカイブでツールとして用いられるソフトウェアもまたそうした技術発展に追随していかなくてはならないのです。
 
-## Contents
+## 目次
 
 * [Training/Documentation](#trainingdocumentation)
 * [Resources for Web Publishers](#resources-for-web-publishers)
-* [Tools & Software](#tools--software)
+* [ツール・ソフトウェア](#tools--software)
   * [Acquisition](#acquisition)
   * [Replay](#replay)
   * [Search & Discovery](#search--discovery)
@@ -24,28 +27,29 @@ Web archiving is the process of collecting portions of the World Wide Web to ens
 
 ## Training/Documentation
 
-* Introductions to web archiving concepts:
-  * [What is a web archive?](https://youtu.be/ubDHY-ynWi0) - A video from [the UK Web Archive YouTube Channel](https://www.youtube.com/channel/UCJukhTSw8VRj-VNTpBcqWkw)
-  * [Wikipedia's List of Web Archiving Initiatives](https://en.wikipedia.org/wiki/List_of_Web_archiving_initiatives)
+* Webアーカイブの考え方の手引き:
+  * [What is a web archive?](https://youtu.be/ubDHY-ynWi0) - [the UK Web Archive YouTubeチャンネル](https://www.youtube.com/channel/UCJukhTSw8VRj-VNTpBcqWkw)の動画
+  * [Webアーカイブ・イニシアチブの一覧(Wikipedia記事)](https://en.wikipedia.org/wiki/List_of_Web_archiving_initiatives)
   * [Glossary of Archive-It and Web Archiving Terms](https://support.archive-it.org/hc/en-us/articles/208111686-Glossary-of-Archive-It-and-Web-Archiving-Terms)
-  * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - The Web Archiving Lifecycle Model is an attempt to incorporate the technological and programmatic arms of the web archiving into a framework that will be relevant to any organization seeking to archive content from the web. Archive-It, the web archiving service from the Internet Archive, developed the model based on its work with memory institutions around the world.
+  * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - The Web Archiving Lifecycle Model is an attempt to incorporate the technological and programmatic arms of the web archiving into a framework that will be relevant to any organization seeking to archive content from the web. Archive-It, the web archiving service from the Internet Archive, developed the model based on its work with memory institutions around the world. Web Archiving Lifecycle Modelとは、
   * [Training materials: module for beginners (8 sessions)](https://netpreserve.org/web-archiving/training-materials/)
-* The WARC Standard:
+* WARCファイルフォーマット標準:
   * The [warc-specifications](https://iipc.github.io/warc-specifications/) community HTML version of the official specification and hub for new proposals.
   * The [offical ISO 28500 WARC specification homepage](http://bibnum.bnf.fr/WARC/).
-* For researchers using web archives:
+* Webアーカイブを利用したい研究者のための手引き:
   * [GLAM Workbench: Web Archives](https://glam-workbench.github.io/web-archives/) - See also [this related blog post on 'Asking questions with web archives'](https://netpreserveblog.wordpress.com/2020/05/28/asking-questions-with-web-archives/).
   * [Archives Unleashed Toolkit documentation](https://aut.docs.archivesunleashed.org/)
 
 ## Resources for Web Publishers
 
 These resources can help when working with individuals or organisations who publish on the web, and who want to make sure their site can be archived.
+これらの資料は、Web上に情報を公開していて、なおかつ自分が公開した情報をアーカイブしたいと考えている個人・団体にとって参考になるかもしれません。
 
 * [Stanford Libraries' Archivability pages](https://library.stanford.edu/projects/web-archiving/archivability)
 * The [Archive Ready](http://archiveready.com/) tool, for estimating how likely a web page will be archived successfully.
 
 
-## Tools & Software
+## ツール・ソフトウェア
 
 This list of tools and software is intended to briefly describe some of the most important and widely-used tools related to web archiving. For more details, we recommend you refer to (and contribute to!) these excellent resources from other groups:
 * [Comparison of web archiving software](https://github.com/archivers-space/research/tree/master/web_archiving)
@@ -185,12 +189,12 @@ This list of tools and software is intended to briefly describe some of the most
 
 ### Slack
 
-* [IIPC Slack](https://iipc.slack.com/) - Ask [@netpreserve](https://twitter.com/NetPreserve) for access.
+* [IIPC Slack](https://iipc.slack.com/) - 参加を希望される方は [@netpreserve](https://twitter.com/NetPreserve) まで
 * [Archives Unleashed Slack](https://archivesunleashed.slack.com/) - [Fill out this request form](https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link) for access to a researcher group of people working with web archives.
 * [Archivers Slack](https://archivers.slack.com) - [Invite yourself](https://archivers-slack.herokuapp.com/) to a multi-disciplinary effort for archiving projects run in affiliation with [EDGI](https://envirodatagov.org/archiving/) and [Data Together](http://datatogether.org/).
 
 ### Twitter
 
-* [@NetPreserve](https://twitter.com/NetPreserve) - Official IIPC handle.
+* [@NetPreserve](https://twitter.com/NetPreserve) - IIPC公式アカウント
 * [#WebArchiving](https://twitter.com/search?q=%23webarchiving)
 * [#WebArchiveWednesday](https://twitter.com/hashtag/webarchivewednesday)
