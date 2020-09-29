@@ -1,4 +1,4 @@
-# Awesome Web Archiving [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Web Archiving (ja) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ※この文書は、Creative Commons Zero v1.0 Universalライセンスで公開されている[iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)を極めて適当に日本語に翻訳したものです。本文書は翻訳元文書と同じくCreative Commons Zero v1.0 Universalライセンスに従います。なお、翻訳元文書の性質上、ここに掲載されている文献やリンクは基本的に全て英語資料であることにご注意ください。  
 
@@ -42,8 +42,7 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
 
 ## Webコンテンツ著作者のための資料
 
-These resources can help when working with individuals or organisations who publish on the web, and who want to make sure their site can be archived.
-これらの資料は、Web上に情報を公開していて、なおかつ自分が公開した情報をアーカイブしたいと考えている個人・団体にとって参考になるかもしれません。
+これらの資料は、Web上に情報を公開していて、なおかつ自分が公開した情報をアーカイブしたいと考えている個人・団体にとって参考になります。
 
 * [Stanford Libraries' Archivability pages](https://library.stanford.edu/projects/web-archiving/archivability)
 * The [Archive Ready](http://archiveready.com/) tool, for estimating how likely a web page will be archived successfully.
@@ -51,7 +50,7 @@ These resources can help when working with individuals or organisations who publ
 
 ## ツール・ソフトウェア
 
-This list of tools and software is intended to briefly describe some of the most important and widely-used tools related to web archiving. For more details, we recommend you refer to (and contribute to!) these excellent resources from other groups:
+ここで挙げているツールやソフトウェアのリストは、最も重要かつ広く使われているWebアーカイブ関連のツール類をざっと紹介することを目的としています。より詳しい情報を得たい場合、Webアーカイブに携わっている他の団体による以下の素晴らしい資料を参照 (そして編集も！) することをお勧めします:
 * [Comparison of web archiving software](https://github.com/archivers-space/research/tree/master/web_archiving)
 * [Awesome Website Change Monitoring](https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring)
 * [Web Crawl @ COPTR](http://coptr.digipres.org/Category:Web_Crawl)
