@@ -14,10 +14,10 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
   * [アーカイブの保存](#acquisition)
   * [アーカイブの閲覧・再生](#replay)
   * [情報の検索](#search--discovery)
-  * [Utilities](#utilities)
+  * [各種ユーティリティ](#utilities)
   * [WARC I/O Libraries](#warc-io-libraries)
   * [Analysis](#analysis)
-  * [Quality Assurance](#quality-assurance)
+  * [QA(品質保証)](#quality-assurance)
 * [Webアーカイブコミュニティによる資料](#community-resources)
   * [このリスト以外の素晴らしいリスト](#other-awesome-lists)
   * [ブログ・学術研究](#blogs-and-scholarship)
@@ -31,7 +31,7 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
   * [What is a web archive?](https://youtu.be/ubDHY-ynWi0) - [the UK Web Archive のYouTubeチャンネル](https://www.youtube.com/channel/UCJukhTSw8VRj-VNTpBcqWkw)に投稿された動画
   * [Webアーカイブ・イニシアチブの一覧 (Wikipedia記事)](https://en.wikipedia.org/wiki/List_of_Web_archiving_initiatives)
   * [Glossary of Archive-It and Web Archiving Terms](https://support.archive-it.org/hc/en-us/articles/208111686-Glossary-of-Archive-It-and-Web-Archiving-Terms)
-  * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - Web Archiving Lifecycle Modelとは、Webアーカイブの技術的およびプログラム的な部分を、Webコンテンツをアーカイブしようとするあらゆる組織に関連するフレームワークに組み込もうとする取り組み。Archive-It (Internet ArchiveのWebアーカイブサービス) によって、同サービスと世界中の記憶機関(Memory Institutions)との協力関係を基にして開発された。
+  * [The Web Archiving Lifecycle Model](https://archive-it.org/blog/post/announcing-the-web-archiving-life-cycle-model/) - Web Archiving Lifecycle Modelとは、Webアーカイブの技術的およびプログラム的な部分を、Webコンテンツをアーカイブしようとするあらゆる組織に関連するフレームワークに組み込もうとする取り組み。Archive-It (Internet ArchiveのWebアーカイブサービス) によって、同サービスと世界中の記憶機関(Memory Institutions)との協力関係を基にして確立されたもの。
   * [Training materials: module for beginners (8 sessions)](https://netpreserve.org/web-archiving/training-materials/)
 * WARCファイルフォーマット標準について:
   * The [warc-specifications](https://iipc.github.io/warc-specifications/) community HTML version of the official specification and hub for new proposals.
@@ -45,12 +45,12 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
 これらの資料は、Web上に情報を公開していて、なおかつ自分が公開した情報をアーカイブしたいと考えている個人・団体にとって参考になります。
 
 * [Stanford Libraries' Archivability pages](https://library.stanford.edu/projects/web-archiving/archivability)
-* The [Archive Ready](http://archiveready.com/) tool, for estimating how likely a web page will be archived successfully.
+* [Archive Ready](http://archiveready.com/) - Webページがどの程度正しくアーカイブされそうか見積もってくれるツール
 
 
 ## ツール・ソフトウェア
 
-ここで挙げているツールやソフトウェアのリストは、最も重要かつ広く使われているWebアーカイブ関連のツール類をざっと紹介することを目的としています。より詳しい情報を得たい場合、Webアーカイブに携わっている他の団体による以下の素晴らしい資料を参照 (そして編集も！) することをお勧めします:
+ここで挙げているツールやソフトウェアのリストは、最も重要かつ広く使われているWebアーカイブ関連のツール類をざっと紹介することを目的としています。より詳しい情報を得たい場合、Webアーカイブに携わっている他の団体による以下の素晴らしい資料を参照 (ぜひ編集協力も！) することをお勧めします:
 * [Comparison of web archiving software](https://github.com/archivers-space/research/tree/master/web_archiving)
 * [Awesome Website Change Monitoring](https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring)
 * [Web Crawl @ COPTR](http://coptr.digipres.org/Category:Web_Crawl)
@@ -68,14 +68,14 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
 * [grab-site](https://github.com/ArchiveTeam/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns. *(Stable)* "WebアーキビストのためのWebクローラ"。WARC出力機能、実行中クロールを監視出来るダッシュボード機能、動的な無視パターンを搭載 *(安定版あり)*
 * [Heritrix](https://github.com/internetarchive/heritrix3/wiki) - An open source, extensible, web-scale, archival quality web crawler. *(Stable)* オープンソース・高拡張性・Webスケール・アーカイバルクオリティなWebクローラ *(安定版あり)*
   * [Heritrix Walkthrough](https://github.com/web-archive-group/heritrix-walkthrough) *(In Development)* *(開発中)*
-* [html2warc](https://github.com/steffenfritz/html2warc) - A simple script to convert offline data into a single WARC file. *(Stable)* オフラインなデータをWARCファイルに変換するためのシンプルなスクリプト *(安定版あり)*
+* [html2warc](https://github.com/steffenfritz/html2warc) - A simple script to convert offline data into a single WARC file. *(Stable)* オフラインのデータをWARCファイルに変換するためのシンプルなスクリプト *(安定版あり)*
 * [HTTrack](http://www.httrack.com/) - An open source website copying utility. *(Stable)* オープンソースのWebサイトコピー用ユーティリティ *(安定版あり)*
 * [monolith](https://github.com/Y2Z/monolith) - CLI tool to save a web page as a single HTML file. *(Stable)* WebページをHTMLファイルとして保存するCLIツール *(安定版あり)*
 * [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. *(Stable)* Firefox/Chromeのブラウザ拡張機能・CLIツール。ページを丸ごと完全コピーしてHTMLファイルとして保存する *(安定版あり)*
-* [SiteStory](http://mementoweb.github.com/SiteStory/) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. *(Stable)* 選択的にキャプチャ・保存する *(安定版あり)*
-* [Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs. *(Stable)* *(安定版あり)*
-* [Squidwarc](https://github.com/N0taN3rd/Squidwarc) - An [open source, high-fidelity, page interacting](http://ws-dl.blogspot.com/2017/07/2017-07-24-replacing-heritrix-with.html) archival crawler that uses Chrome or Chrome Headless directly. *(In Development)* *(開発中)*
-* [StormCrawler](http://stormcrawler.net/) - A collection of resources for building low-latency, scalable web crawlers on Apache Storm. *(Stable)* *(安定版あり)*
+* [SiteStory](http://mementoweb.github.com/SiteStory/) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. *(Stable)* トランザクショナルアーカイブ。Webクライアント(=ブラウザ)とWebサーバの間のトランザクションを選択的にキャプチャし保存する。 *(安定版あり)*
+* [Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs. *(Stable)* Twitter、Tumblr、Flickr、Weiboの公式APIを用いてソーシャルメディアの情報を収集するためのオープンソースソフトウェア。 *(安定版あり)*
+* [Squidwarc](https://github.com/N0taN3rd/Squidwarc) - An [open source, high-fidelity, page interacting](http://ws-dl.blogspot.com/2017/07/2017-07-24-replacing-heritrix-with.html) archival crawler that uses Chrome or Chrome Headless directly. *(In Development)* [オープンソース・高忠実・ページインタラクティブ](http://ws-dl.blogspot.com/2017/07/2017-07-24-replacing-heritrix-with.html)なアーカイブ用クローラ。Chromeベース。 *(開発中)*
+* [StormCrawler](http://stormcrawler.net/) - A collection of resources for building low-latency, scalable web crawlers on Apache Storm. *(Stable)* 低レイテンシでスケールするWebクローラを作るための各種コンポーネント。Apache Stormベース。 *(安定版あり)*
 * [twarc](https://github.com/docnow/twarc) - A command line tool and Python library for archiving Twitter JSON data. *(Stable)* *(安定版あり)*
 * [WARCreate](http://matkelly.com/warcreate/) - A [Google Chrome](https://www.google.com/intl/en/chrome/browser/) extension for archiving an individual webpage or website to a WARC file. *(Stable)* *(安定版あり)*
 * [Warcworker](https://github.com/peterk/warcworker) - An open source, dockerized, queued, high fidelity web archiver based on Squidwarc with a simple web GUI. *(Stable)* *(安定版あり)*
@@ -108,7 +108,7 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
   * [Wasp](https://github.com/webis-de/wasp) - A fully functional prototype of a personal [web archive and search system](http://ceur-ws.org/Vol-2167/paper6.pdf). *(In Development)* *(開発中)*
   * Other possible options for builting a front-end are listed on in the `webarchive-discovery` wiki, [here](https://github.com/ukwa/webarchive-discovery/wiki/Front-ends).
 
-### Utilities
+### 各種ユーティリティ
 
 * [ArchiveTools](https://github.com/recrm/ArchiveTools) - Collection of tools to extract and interact with WARC files (Python).
 * [har2warc](https://github.com/webrecorder/har2warc) - Convert HTTP Archive (HAR) -> Web Archive (WARC) format (Python).
@@ -146,7 +146,7 @@ Webアーカイブとは、World Wide Web(WWW)上に存在する情報を収集�
 * [Archives Unleashed Toolkit](https://github.com/archivesunleashed/aut) - Archives Unleashed Toolkit (AUT) is an open-source platform for analyzing web archives with Apache Spark. *(Stable)* *(安定版あり)*
 * [Tweet Archvies Unleashed Toolkit](https://github.com/archivesunleashed/twut) - An open-source toolkit for analyzing line-oriented JSON Twitter archives with Apache Spark. *(In Development)* *(開発中)*
 
-### Quality Assurance
+### QA(品質保証)
 
 * [Chrome Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - Browser extension: a link checker with more options.
 * [Chrome link checker](https://chrome.google.com/webstore/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi) - Browser extension: basic link checker.
